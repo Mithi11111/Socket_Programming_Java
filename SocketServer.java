@@ -1,6 +1,8 @@
 import java.net.*;
 
 import java.io.*;
+import java.time.format.DateTimeFormatter;  
+import java.time.LocalDateTime;    
 
 public class SocketServer
 
@@ -47,6 +49,11 @@ ps=new PrintStream(client.getOutputStream());
 String s=dis.readLine();
 
 System.out.println("The client:"+s);
+DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+   LocalDateTime now = LocalDateTime.now();  
+   ps.println(dtf.format(now)); 
+
+
 
 ps.println("Hello");
 
