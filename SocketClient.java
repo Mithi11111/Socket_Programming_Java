@@ -12,7 +12,8 @@ public static void main(String args[])
 
 Socket server;
 
-int port=10000;
+// int port=10000;
+int port=2000;
 
 DataInputStream dis;
 
