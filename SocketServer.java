@@ -35,7 +35,7 @@ server=new ServerSocket(port);
 
 System.out.println("Successfully opened ServerSocket");
 
-System.out.println("waiting for client connection");
+System.out.println("waiting for client connections");
 
 client=server.accept();
 
