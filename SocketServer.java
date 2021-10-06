@@ -27,7 +27,7 @@ PrintStream ps;
 
 System.out.println("Starting Server Application");
 
-// System.out.println("Trying to open the connection");
+System.out.println("Trying to open the connection");
 
 try
 
