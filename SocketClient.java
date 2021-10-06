@@ -10,7 +10,7 @@ public static void main(String args[])
 
 {
 
-Socket server;
+// Socket server;
 
 // int port=10000;
 int port=2000;
@@ -31,7 +31,7 @@ try
 
 server=new Socket(host,port);
 
-System.out.println("Successfully opened ServerSocket");
+// System.out.println("Successfully opened ServerSocket");
 
 dis=new DataInputStream(server.getInputStream());
 
