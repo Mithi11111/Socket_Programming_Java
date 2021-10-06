@@ -19,7 +19,7 @@ Socket client;
 // int port=10000;
 //    int port=1000;
    int port=2000;
-
+// 
 
 // DataInputStream dis;
 
