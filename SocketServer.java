@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
 
 {
 
-ServerSocket server;
+// ServerSocket server;
 
 Socket client;
 
