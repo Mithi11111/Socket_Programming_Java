@@ -31,7 +31,7 @@ try
 
 server=new Socket(host,port);
 
-System.out.println("Successfully opened ServerSocket");
+// System.out.println("Successfully opened ServerSocket");
 
 dis=new DataInputStream(server.getInputStream());
 
