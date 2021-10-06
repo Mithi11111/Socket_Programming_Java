@@ -14,7 +14,7 @@ public static void main(String args[])
 
 ServerSocket server;
 
-// Socket client;
+Socket client;
 
 // int port=10000;
 //    int port=1000;
