@@ -12,7 +12,7 @@ public static void main(String args[])
 
 {
 
-ServerSocket server;
+// ServerSocket server;
 
 Socket client;
 
