@@ -10,7 +10,7 @@ public static void main(String args[])
 
 {
 
-// Socket server;
+Socket server;
 
 // int port=10000;
 int port=2000;
