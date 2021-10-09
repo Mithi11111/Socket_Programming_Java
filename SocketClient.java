@@ -12,7 +12,7 @@ public static void main(String args[])
 
 // Socket server;
 
-// int port=10000;
+int port=10000;
 int port=2000;
 
 DataInputStream dis;
@@ -43,7 +43,7 @@ String s=dis.readLine();
 
 System.out.println("The server:"+s);
 
-ps.println("Hello");
+// ps.println("Hello");
 
 }
 
