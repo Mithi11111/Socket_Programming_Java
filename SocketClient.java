@@ -2,7 +2,7 @@
 
 import java.io.*;
 
-public class SocketClient
+// public class SocketClient
 
 {
 
