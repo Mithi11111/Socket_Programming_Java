@@ -17,7 +17,7 @@ int port=2000;
 
 DataInputStream dis;
 
-PrintStream ps;
+// PrintStream ps;
 
 String host="localhost";
 
